@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:wght@300;600;700&display=swap');
 :root{
-    --primary-blue: hsl(158, 36%, 37%);
+    --primary-blue: rgb(60, 128, 103);
     --primary-cream: hsl(30, 38%, 92%);
     --neu-darkblue: hsl(212, 21%, 14%);
     --neu-darkgrayblue: hsl(228, 12%, 48%);
@@ -22,7 +22,8 @@
 
 button{
     border: none;
-    border-radius: 10px;;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 html{
@@ -108,6 +109,13 @@ body{
     background-color: var(--primary-blue);
     color: var(--neu-white);
     font-weight: var(--fw-big);
+}
+
+.card button:hover{
+    background-color: rgb(60, 100, 103);
+}
+.card button:active{
+    background-color: rgb(60, 110, 103);
 }
 .card button div{
     display: inline-flex;
