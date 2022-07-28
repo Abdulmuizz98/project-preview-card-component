@@ -10,8 +10,6 @@
     --fw-big: 700;
     --serif: 'Fraunces', serif; 
     --sans: 'Montserrat', sans-serif; 
-
-
 }
 /* Base styles */
 *{
@@ -138,6 +136,7 @@ body{
     }
     .card .card-image{
         border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
         width: 100%;
         height: 100%;
         background-image: url(./images/image-product-desktop.jpg);
